@@ -1,8 +1,8 @@
 * {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+    font-size: 30px;
+    line-height: 160%;
 }
 
 
@@ -20,8 +20,7 @@ header {
     width: 120px;
     height: 48px;
     left: 40px;
-    top: 40px;
-    
+    top: 10px;
 }
 
 main {
@@ -36,41 +35,48 @@ main {
 
 .mensaje {
     position: relative;
-    margin-top: 20px;
-    margin-left: 90px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     background-image: url("imagenes/muñeco.png");
     background-repeat: no-repeat;
-    background-position: 18px;
+    background-position: 10px;
     background-size: 300px;
-    border-radius: .7rem;
+    border-radius: .5rem;
 }
 
 .copiar {
     position: relative;
     margin-top: 20px;
-    margin-left: 205px;
+    margin-left: 240px;
     border-radius: .5rem;
 }
 
 .botones {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .encriptar {
-    background-color: darkblue;
-    color:white;
-    border-radius: .5rem;
+    background-color: #0A3871;
+    color: white;
+    width: 300px;
+    border-radius: 24px;
+    padding: 24px;
     font-size: 20px;
+    margin-right: 50px;
 }
 
 .desencriptar {
-    margin-left: 30px;
-    border-radius: .5rem;
+    background-color:#D8DFE8;
+    color: #0A3871;
+    width: 300px;
+    border-radius: 24px;
+    padding: 24px;
     font-size: 20px;
 }
 
 .informacion {
-    font-size: 20px;
+    font-size: 5px;
 }
